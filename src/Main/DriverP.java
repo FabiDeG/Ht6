@@ -3,11 +3,23 @@ package Main;
 import java.util.Scanner;
 
 public class DriverP {
+	
+	
+	 
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		int opc = 0;
+		String option = Integer.toString(opc);
+		
+	    public opt(String option) {
+	        this.option = option;
+	    }
+
+	    public int getDato() {
+	        return dato;
+	    }
 		
 		do {
 			Factory fact = new Factory();
@@ -153,5 +165,6 @@ int res = 0;
 		
 		}while(opc != 3);
 	}
+	
 
 }

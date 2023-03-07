@@ -13,14 +13,7 @@ public class DriverP {
 		int opc = 0;
 		String option = Integer.toString(opc);
 		
-	    public opt(String option) {
-	        this.option = option;
-	    }
-
-	    public int getDato() {
-	        return dato;
-	    }
-		
+	   
 		do {
 			Factory fact = new Factory();
 			Scanner scann = new Scanner(System.in);
